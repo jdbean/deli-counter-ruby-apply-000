@@ -13,7 +13,7 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  array << name # Adds name to end of array
+  array << name # Adds new name to end of array
   puts "Welcome, #{name}. You are number #{array.length} in line."
 end
 
